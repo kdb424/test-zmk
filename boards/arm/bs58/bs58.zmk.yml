@@ -1,0 +1,15 @@
+file_format: "1"
+id: bs58
+name: BS58
+url:
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
+siblings:
+  - bs58_left
+  - bs58_right

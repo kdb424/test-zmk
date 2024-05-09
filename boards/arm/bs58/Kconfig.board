@@ -1,0 +1,12 @@
+#
+# Copyright (c) 2024 Kyle Brown
+# SPDX-License-Identifier: MIT
+#
+
+config BOARD_BS58_LEFT
+    bool "bs58 left"
+    depends on SOC_NRF52840_QIAA
+
+config BOARD_BS58_RIGHT
+    bool "bs58 right"
+    depends on SOC_NRF52840_QIAA
